@@ -10,11 +10,13 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        button1=findViewById<Button>(R.id.button1)
 
+        button1=findViewById<Button>(R.id.button1)
         button1.setOnClickListener{
-            Toast.makeText(applicationContext, "버튼이 눌렸어요!",
+            Toast.makeText(applicationContext, "버튼이 눌렸어요!ㅋㅋㅋ",
             Toast.LENGTH_SHORT).show()
         }
+
+
     }
 }
